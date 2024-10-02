@@ -3,7 +3,7 @@ import React from "react";
 export default function StartScreen({ numQuestions, dispatch }) {
   return (
     <div className="start">
-      <h2>Wectom to The Reacy Quiz!</h2>
+      <h2>Welcome to the Mini React Quiz!</h2>
       <h3>{numQuestions} question to test your React mastery</h3>
       <button
         className="btn btn-ui"
